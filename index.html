@@ -4,177 +4,42 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/index.css" />
-    <title>Welcome</title>
+    <title>FlameWeb</title>
+    <link rel="icon" type="image/png" href="favicon.png" />
   </head>
-  <style>
-    * {
-  margin: 0;
-  padding: 0;
-  font-family: "segoe Ui"; 
-}
 
-.head {
-  display: flex;
-  width: 100%;
-  background-color: rgba(240, 248, 255, 0);
-  align-items: center;
-  justify-content: space-around;
-  height: 80px;
-  margin-bottom: 50px;
-}
-
-.headnav {
-  display: flex;
-  gap: 20px;
-  font-weight: 500;
-  color: rgb(255, 255, 255);
-}
-
-.firstSection {
-  width: 100%;
-  height: 90vh;
-  display: flex;
-  flex-direction: column;
-  background-image: url("https://i.pinimg.com/1200x/1f/7b/8b/1f7b8b80ada5f4aad486bfb416f1e54b.jpg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  align-items: center;
-  justify-content: flex-start;
-}
-
-.glass1 {
-  background: rgba(255, 255, 255, 0.15); /* semi-transparent white */
-  backdrop-filter: blur(10px); /* the frosted blur effect */
-  -webkit-backdrop-filter: blur(10px); /* for Safari support */
-  border-radius: 15px;
-  border: 1px solid rgba(255, 255, 255, 0.3); /* subtle border */
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); /* soft shadow for depth */
-  padding: 20px;
-  color: white;
-}
-
-.glass1:hover {
-    transition: all 0.3s ease-in-out;
-    transform: scale(1.03);
-    box-shadow:
-    -5px -5px 20px rgba(0, 255, 255, 0.5), /* cyan glow (top-left) */
-    5px 5px 20px rgba(255, 0, 255, 0.5);
-}
-
-.glass1 h1 {
-  margin-left: 20px;
-}
-
-.glass1 p {
-  margin-left: 20px;
-}
-
-.mainholder {
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-top: 40px;
-}
-
-.holder {
-  width: 90%;
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-  gap: 20px;
-}
-
-.one {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  height: 100px;
-  background-color: aqua;
-  border-radius: 16px;
-  background: linear-gradient(
-    rgba(0, 255, 30, 0.215),
-    rgba(27, 154, 20, 0.368)
-  );
-  border: solid 2px rgb(157, 189, 109);
-}
-
-.two {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  height: 100px;
-  background-color: rgb(0, 255, 85);
-  border-radius: 16px;
-  background: linear-gradient(
-    rgba(0, 200, 255, 0.215),
-    rgba(20, 134, 154, 0.368)
-  );
-  border: solid 2px rgb(109, 184, 189);
-}
-
-.three {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  height: 100px;
-  background: linear-gradient(
-    rgba(204, 0, 255, 0.215),
-    rgba(154, 20, 150, 0.368)
-  );
-  border-radius: 16px;
-  border: solid 2px rgb(149, 109, 189);
-}
-
-  </style>
   <body>
-    <!-- The header  -->
- 
-    <!-- the first section  -->
-    <div class="firstSection">
-      <div class="head">
-        <h1>FlameWeb</h1>
-        <nav class="headnav">
-          <a>Home</a>
-          <a>Docs</a>
-          <a>Pricing</a>
-          <a>About</a>
-        </nav>
-      </div>
-      <div class="glass1">
-        <h1>FlameWeb IDE</h1>
-        <br />
+    
 
-        <p>
-          The IDE of the future. Program as if you own the IDE. <br />
-          An IDE so powerful to combine the power of designing and <br />
-          programming.
-        </p>
+    <!-- This is the header  -->
+     <header class="head"> 
 
-        <div class="mainholder">
-          <div class="holder">
-            <div class="one">
-              Beginner <br />
-              <h3>US$9.99</h3>
-            </div>
-            <div class="two">
-              Pro <br />
-              <h3>US$49.99</h3>
-            </div>
-            <div class="three">
-              Legendary <br />
-              <h3>US$99.99</h3>
-            </div>
-          </div>
+
+
+        <div class="logo">
+            <img src="favicon.png" alt="com logo" height="50px" width="auto">
+            <h2>FlameCore</h2>
+
         </div>
+
+        <!-- The locations on the header -->
+
+        <div class="loc">
+            <nav>
+                <a>Developer tools </a>
+                <a>Team Tools</a>
+                <a>Education </a>
+                <a>Solutions </a>
+                <a>Store </a>
+            </nav>
+        </div>
+
+
+     </header>
+
+     <!-- The first section -->
+      <div class="firstSection">
+        
       </div>
-    </div>
   </body>
 </html>
