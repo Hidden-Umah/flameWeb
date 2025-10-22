@@ -72,7 +72,7 @@ FirstSection
   align-items: center;
   justify-content: space-evenly;
   width: 80%;
-  height: 60%;
+  height: 70%;
   background-color: #ffffff2c;
   border-radius: 16px;
   backdrop-filter: blur(10px);
@@ -104,7 +104,7 @@ FirstSection
 
 .but1 {
   width: 30%;
-  height: 12%;
+  height: 50px;
   margin-left: 60px;
   margin-top: 50px;
   border-radius: 16px;
@@ -128,15 +128,38 @@ FirstSection
   border: 1px solid rgba(255, 144, 17, 0.2);
 }
 
+
+
+
+
 .secondSection {
   display: flex;
+  flex-direction: column;
   width: 100%;
   height: 500px;
-  background-image: url("../images/8machine-_-oWFZm4NAvMQ-unsplash.jpg");
+  background-color: rgb(20, 20, 20);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
+
+
+.secondSection h2 {
+    margin-left: 40px ;
+    margin-top: 40px;
+    font-size: 40px;
+    color: aqua;
+}
+
+.secondSection h1 {
+    margin-left: 40px ;
+    margin-top: 40px;
+    font-size: 60px;
+    color: rgb(231, 231, 231);
+}
+
+
+/* Media queries  */
 
 @media (max-width: 1024px) {
   .loc {
@@ -155,9 +178,9 @@ FirstSection
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   }
 
-  /* .con2 {
-    display: ;
-  } */
+  .con2 {
+    display: none;
+  }
 
   .lin:hover {
     transition: all 0.3s ease-in-out;
