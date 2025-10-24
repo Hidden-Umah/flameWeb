@@ -1,74 +1,116 @@
-# Minimal NLP (from Scratch)
+![FlameWeb Banner](assets/images/banner.png)
 
-🚀 An educational project to learn and build **Natural Language Processing (NLP)** models from scratch using **Python + NumPy only** (no high-level ML libraries).  
-The goal is to understand the **core building blocks** of NLP without relying on frameworks like GPT, BERT, or TensorFlow.  
+# 🔥 FlameWeb — The Minimal Web IDE  
 
----
-
-## 📌 Project Overview
-This project is part of my journey to learn **AI and NLP fundamentals** by implementing everything myself.  
-We’ll start small (tokenization, vocabulary building, encoding) and progress toward simple models (bag-of-words, embeddings, RNNs).  
+🚀 **FlameWeb** is a lightweight, modern, and visually stunning **browser-based IDE** built to make coding simple, fast, and inspiring.  
+This project currently focuses on the **landing page** — a futuristic glassmorphic interface that introduces FlameWeb’s vision for the next generation of web development tools.
 
 ---
 
-## ✨ Features (Planned / In Progress)
-- ✅ Basic text cleaning and tokenization  
-- ✅ Vocabulary building & word-to-index mapping  
-- ⏳ Bag-of-Words representation  
-- ⏳ TF-IDF implementation  
-- ⏳ Word embeddings (from scratch)  
-- ⏳ Simple RNN for text classification  
+## 📌 Project Overview  
+
+**FlameWeb** is an ongoing project to design and build a **web IDE from scratch**.  
+The goal is to merge **aesthetics**, **performance**, and **developer comfort** into a single interface that feels natural to use — whether you’re writing a single HTML file or experimenting with full-stack projects.
+
+The current phase focuses on creating a **beautiful landing page** that visually represents what FlameWeb stands for:  
+> “Power. Clarity. Simplicity — in one flame.”
 
 ---
 
-## 📂 Project Structure
+## ✨ Features (Planned / In Progress)  
 
-minimal-nlp/
-│── data/ # Sample text data
-│── src/ # Source code (tokenizers, models, utils)
-│── notebooks/ # Jupyter notebooks (experiments, demos)
-│── tests/ # Unit tests
+- ✅ Responsive glassmorphism landing page  
+- ✅ Animated navigation menu (hamburger toggle)  
+- ⏳ Glowing edge effects and motion blur  
+- ⏳ Scattered icon/image showcase (for tools & features)  
+- ⏳ Interactive IDE mockup section (HTML, CSS, JS editor preview)  
+- ⏳ Firebase or Flask integration for code saving  
+- ⏳ Theme customization (Dark / Light / Flame Mode 🔥)  
+
+---
+
+## 🗂️ Project Structure  
+
+flameweb/
+│── index.html # Landing page
+│── style.css # Styling (glassmorphism, glow, layout)
+│── script.js # JS for animations and interactivity
+│── assets/
+│ ├── icons/ # App & tech icons
+│ ├── images/ # Decorative or background visuals
+│ └── favicon.ico
 │── README.md # Project documentation
----
 
-## 🛠️ Tech Stack
-- **Python 3.10+**
-- **NumPy**
-- (Optional later: Matplotlib for visualization)
+yaml
+Copy code
 
 ---
 
-### 🚀 Getting Started
-Clone the repo:
+## 🛠️ Tech Stack  
+
+- **HTML5**  
+- **CSS3** (Glassmorphism, Neon Glow, Animations)  
+- **Vanilla JavaScript**  
+- *(Later)* **Firebase / Flask** for backend storage  
+
+---
+
+## 🚀 Getting Started  
+
+Clone the repo:  
 ```bash
 git clone https://github.com/Hidden-Umah/Legend-ai-lab.git
 cd Legend-ai-lab
+Open index.html directly in your browser, or host via GitHub Pages:
 
-Install dependencies:
+Go to Settings → Pages
 
-pip install -r requirements.txt
+Set Source: main branch → / (root)
 
-Run a simple tokenizer demo:
+Save — your FlameWeb landing page will go live in a few minutes!
 
-python src/tokenizer.py
+🎨 Design Goals
+Elegant glassmorphic interface with soft blurs and light refractions
+
+Subtle neon glow around key elements
+
+Smooth animations for scroll and hover states
+
+“Scattered layout” aesthetic — abstract, creative, and tech-inspired
+
+Fully responsive for all screen sizes
 
 📅 Roadmap
-
-    Week 1 → Tokenization & Vocabulary
-
-    Week 2 → Bag-of-Words & TF-IDF
-
-    Week 3 → Word Embeddings
-
-    Week 4 → Basic RNN for text classification
+Week	Focus	Progress
+1	Setup project & base layout	✅ Done
+2	Add navigation & glassmorphism styling	✅ Done
+3	Animate icons and edge glow effects	⏳ In Progress
+4	Add IDE demo and live code area	🔜 Planned
+5	Backend integration (Firebase/Flask)	🔜 Planned
 
 🤝 Contributing
+This is a creative + technical learning project.
+Contributions, design suggestions, and performance improvements are all welcome!
 
-This is mainly a learning project, but feedback and suggestions are welcome!
+If you’d like to contribute, fork the repo, make your changes, and submit a pull request.
+
 📖 License
+MIT License — free to use, modify, and share for learning or inspiration.
 
-MIT License — free to use, learn, and share.
-
+yaml
+Copy code
 
 ---
 
+### ✅ How to Add the Banner
+1. Create your banner (e.g., screenshot or designed header) — ideally **1200×400 px**.  
+2. Save it as `banner.png` inside your project at:
+assets/images/banner.png
+
+sql
+Copy code
+3. Commit and push it:
+```bash
+git add assets/images/banner.png
+git commit -m "Add FlameWeb banner"
+git push
