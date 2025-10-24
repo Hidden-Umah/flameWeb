@@ -128,36 +128,59 @@ FirstSection
   border: 1px solid rgba(255, 144, 17, 0.2);
 }
 
-
-
-
-
 .secondSection {
   display: flex;
   flex-direction: column;
   width: 100%;
-  height: 500px;
+  height: 110vh;
   background-color: rgb(20, 20, 20);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
-
 .secondSection h2 {
-    margin-left: 40px ;
-    margin-top: 40px;
-    font-size: 40px;
-    color: aqua;
+  margin-left: 40px;
+  margin-top: 40px;
+  font-size: 40px;
+  color: aqua;
 }
 
 .secondSection h1 {
-    margin-left: 40px ;
-    margin-top: 40px;
-    font-size: 60px;
-    color: rgb(231, 231, 231);
+  margin-left: 40px;
+  margin-top: 40px;
+  font-size: 60px;
+  color: rgb(231, 231, 231);
 }
 
+.ide {
+  display: none;
+}
+
+.span1 {
+    color: violet;
+}
+
+.feat {
+    display: flex;
+    margin-top: 80px;
+    
+}
+
+.featIcon {
+    width: 5%;
+    height: 70px;
+    background-color: aquamarine;
+}
+
+
+.features {
+    width: 90%;
+    height: 50vh;
+    background:linear-gradient(rgb(106, 245, 255) , rgb(34, 210, 246) , rgb(0, 119, 149));
+    border-radius: 16px;
+    border: 1px solid rgb(0, 191, 255);
+}
 
 /* Media queries  */
 
@@ -195,5 +218,32 @@ FirstSection
   .hamburger {
     display: block;
     margin-right: 20px;
+  }
+
+  .ide {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: 500px;
+    background-color: rgb(185, 176, 142);
+    margin-left: 80px;
+    margin-top: 60px;
+    border-radius: 12px;
+    border: 2px solid rgb(62, 61, 61);
+
+    /* the Ide codes start from here  */
+
+    font-weight: 600;
+    font-size: large;
+  }
+
+  .featIcon {
+    display: none;
+    margin-left: 0;
+  }
+
+  .features{
+    width: 100%;
+    margin-left: 0;
   }
 }
