@@ -1,4 +1,4 @@
-![FlameWeb Banner](assets/images/banner.png)
+![FlameWeb Banner](images/Image1.jpg)
 
 # 🔥 FlameWeb — The Minimal Web IDE  
 
@@ -9,10 +9,10 @@ This project currently focuses on the **landing page** — a futuristic glassmor
 
 ## 📌 Project Overview  
 
-**FlameWeb** is an ongoing project to design and build a **web IDE from scratch**.  
-The goal is to merge **aesthetics**, **performance**, and **developer comfort** into a single interface that feels natural to use — whether you’re writing a single HTML file or experimenting with full-stack projects.
+**FlameWeb** is a company-driven project to design and build a **next-generation web IDE** from scratch.  
+It combines **aesthetics**, **performance**, and **developer comfort** into one environment that feels seamless to use — whether you’re writing a quick HTML page or building full web apps.
 
-The current phase focuses on creating a **beautiful landing page** that visually represents what FlameWeb stands for:  
+The current phase focuses on a **landing page** that visually represents what FlameWeb stands for:  
 > “Power. Clarity. Simplicity — in one flame.”
 
 ---
@@ -35,10 +35,8 @@ flameweb/
 │── index.html # Landing page
 │── style.css # Styling (glassmorphism, glow, layout)
 │── script.js # JS for animations and interactivity
-│── assets/
-│ ├── icons/ # App & tech icons
-│ ├── images/ # Decorative or background visuals
-│ └── favicon.ico
+│── images/ # Banner, backgrounds, or screenshots
+│ └── banner.png
 │── README.md # Project documentation
 
 yaml
@@ -57,17 +55,12 @@ Copy code
 
 ## 🚀 Getting Started  
 
-Clone the repo:  
+To clone the private repository:  
 ```bash
-git clone https://github.com/Hidden-Umah/Legend-ai-lab.git
-cd Legend-ai-lab
-Open index.html directly in your browser, or host via GitHub Pages:
-
-Go to Settings → Pages
-
-Set Source: main branch → / (root)
-
-Save — your FlameWeb landing page will go live in a few minutes!
+git clone git@github.com:Hidden-Umah/flameWeb.git
+cd flameWeb
+⚠️ Note: This is a private, company-managed project.
+Access is restricted to authorized team members only.
 
 🎨 Design Goals
 Elegant glassmorphic interface with soft blurs and light refractions
@@ -81,36 +74,38 @@ Smooth animations for scroll and hover states
 Fully responsive for all screen sizes
 
 📅 Roadmap
-Week	Focus	Progress
-1	Setup project & base layout	✅ Done
-2	Add navigation & glassmorphism styling	✅ Done
-3	Animate icons and edge glow effects	⏳ In Progress
-4	Add IDE demo and live code area	🔜 Planned
-5	Backend integration (Firebase/Flask)	🔜 Planned
+Phase	Focus	Progress
+1	Base layout & glassmorphism	✅ Done
+2	Navigation & animation logic	✅ Done
+3	Icon animations + glow effects	⏳ In Progress
+4	IDE mockup + interactivity	🔜 Planned
+5	Backend & snippet saving	🔜 Planned
 
-🤝 Contributing
-This is a creative + technical learning project.
-Contributions, design suggestions, and performance improvements are all welcome!
+🏢 Project Ownership
+FlameWeb is a proprietary project under the Legend AI Lab organization.
+All rights reserved © 2025 Legend AI Lab.
 
-If you’d like to contribute, fork the repo, make your changes, and submit a pull request.
+⚖️ License
+This project is protected under a Company Proprietary License.
 
-📖 License
-MIT License — free to use, modify, and share for learning or inspiration.
+🔒 Usage Restrictions:
+
+You may not copy, modify, or redistribute this code or its components.
+
+Source code access is restricted to authorized team members.
+
+External forks and pull requests are not permitted without company approval.
+
+For licensing inquiries or collaboration requests, please contact:
+📧 legendailab@outlook.com
 
 yaml
 Copy code
 
 ---
 
-### ✅ How to Add the Banner
-1. Create your banner (e.g., screenshot or designed header) — ideally **1200×400 px**.  
-2. Save it as `banner.png` inside your project at:
-assets/images/banner.png
 
-sql
-Copy code
-3. Commit and push it:
-```bash
-git add assets/images/banner.png
-git commit -m "Add FlameWeb banner"
-git push
+
+
+
+
